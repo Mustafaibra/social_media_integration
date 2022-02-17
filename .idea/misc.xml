@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Works/Android/socialapp/app/src/main/res/drawable-v24/gmailbtn.xml" value="0.133" />
+        <entry key="..\:/Projects/Works/Android/socialapp/app/src/main/res/drawable-v24/rounded_button.xml" value="0.133" />
+        <entry key="..\:/Projects/Works/Android/socialapp/app/src/main/res/drawable/ss.xml" value="0.1" />
+        <entry key="..\:/Projects/Works/Android/socialapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Projects/Works/Android/socialapp/app/src/main/res/layout/fb_profile.xml" value="0.1" />
+        <entry key="..\:/Projects/Works/Android/socialapp/app/src/main/res/layout/gmail_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/Works/Android/socialapp/app/src/main/res/layout/splash_screen.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

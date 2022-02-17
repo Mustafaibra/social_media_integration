@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/apptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/font0"
+            android:text="@string/social_media_gate"
+            android:textColor="#4A6572"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            />
+        <ImageView
+            android:id="@+id/socialstartimg"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/socialstart"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="logo">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/stayconnected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/font0"
+            android:text="@string/stay_connected"
+            android:textColor="#4A6572"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/start"
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints"
+        >
+        <Button
+            android:id="@+id/fbbtn"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:paddingHorizontal="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/login_with_facebook"
+            android:drawableLeft="@drawable/fb"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/font0"
+            android:background="@drawable/ss"
+
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"
+            />
+
+
+        <Button
+            android:id="@+id/gmailbtn"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:text="@string/login_with_gmail"
+            android:drawableLeft="@drawable/googlepic"
+            android:paddingHorizontal="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@color/white"
+            android:backgroundTint="@android:color/white"
+            android:fontFamily="@font/font0"
+            >
+
+        </Button>
+        <TextView
+            android:id="@+id/link_texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:textSize="10sp"
+            android:text="@string/constraints"
+            tools:ignore="SmallSp">
+
+        </TextView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

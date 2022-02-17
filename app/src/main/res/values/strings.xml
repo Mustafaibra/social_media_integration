@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"> Social Gate </string>
+    <string name="facebook_app_id">1100616220783272</string> <string name="fb_login_protocol_scheme">fb1100616220783272</string>
+    <string name="social_media_gate">Social Media Gate</string>
+    <string name="stay_connected">Stay Connected</string>
+    <string name="login_with_facebook">Login with FaceBook</string>
+    <string name="login_with_gmail">Login with Gmail</string>
+    <string name="constraints"><![CDATA[By clicking on login, you are accepting our privacy policy \nand terms & conditions.]]></string>
+    <string name="designer">Mustafa Ibrahim</string>
+    <string name="social_media_gate2">SOCIAL MEDIA Gate</string>
+
+</resources>
